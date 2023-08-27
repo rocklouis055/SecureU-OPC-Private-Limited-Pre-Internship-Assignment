@@ -1,3 +1,8 @@
+Libraries required
+
+1. "wmi" which can be installed by using "0pip install wmi"
+2. Optionally install "pip install pyinstaller" for converting "security_manger.py" to "security_manger.exe"
+
 Instructions to run
 
 1.Use in some Virtal Environment.
@@ -10,5 +15,9 @@ Instructions to run
 7.To unblock , just run the "security_manger.py" or "security_manger.exe" with -u,-U,-unblock or -UNBLOCK argument, run through PowerShell as CMD is blocked already.
 8.Everything will work again.
 9.Sometimes Bluetooth wont work again for few seconds, try to unblock after few mins and it will start working again.
+
+Optional
+To convert  "security_manger.py" to "security_manger.exe" use command "pyinstaller --onefile security_manger.py".
+It may take some time, after that exe file will be in "dist" folder.
 
 Documentation is already done in the code as #Comments.
