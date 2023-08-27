@@ -1,0 +1,14 @@
+Instructions to run
+
+1.Use in some Virtal Environment.
+2.Run the "security_manger.py" or "security_manger.exe" to start the blocking process, -b,-B,-BLOCK,-block or no argument can be used for blocking.
+3.If it is started without Administrator permission, it will ask for it.
+3.It will block facebook.com, USB acess, CMD acess and Bluetooth.
+4.More websites can be added by adding the links in "websites" list in the code.
+5.Check the blocked things.
+6.Bluetooth icon , bluetooth setting all things will be there but bluetooth wont work.
+7.To unblock , just run the "security_manger.py" or "security_manger.exe" with -u,-U,-unblock or -UNBLOCK argument, run through PowerShell as CMD is blocked already.
+8.Everything will work again.
+9.Sometimes Bluetooth wont work again for few seconds, try to unblock after few mins and it will start working again.
+
+Documentation is already done in the code as #Comments.
